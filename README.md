@@ -7,7 +7,7 @@ Add playbook-gen.sh to your `$PATH`
 ## Example
 ```
 $ playbook-gen.sh new_playbook
-Playbook new_playbook is created.
+Playbook new_playbook has been created.
 $ tree -a --dirsfirst new_playbook/
 new_playbook/
 ├── group_vars
