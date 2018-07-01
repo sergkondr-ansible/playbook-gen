@@ -82,5 +82,5 @@ for PLAYBOOK_NAME in "$@"; do
     create_gitignore $PLAYBOOK_NAME
     create_vault_pass_file $PLAYBOOK_NAME
     create_readme $PLAYBOOK_NAME
-    echo "Playbook $PLAYBOOK_NAME is created."
+    echo "Playbook $PLAYBOOK_NAME has been created."
 done
