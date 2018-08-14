@@ -72,7 +72,7 @@ function create_playbook_files() {
 }
 
 function create_vault_pass_file() {
-    openssl rand -base64 16 > ./$1/.vault_pass
+    openssl rand -base64 16 > ./$1/.vault_pass.txt
 }
 
 for PLAYBOOK_NAME in "$@"; do
