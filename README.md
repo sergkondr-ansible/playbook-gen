@@ -1,4 +1,6 @@
-# playbook-gen
+# [deprecated]playbook-gen
+> Please, use [cookiecutter](https://github.com/audreyr/cookiecutter). It is more usefull and flexible.
+
 Simple shell-script to create skeleton of ansible playbook
 
 ## Installation
